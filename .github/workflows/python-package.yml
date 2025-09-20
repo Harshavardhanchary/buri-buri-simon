@@ -26,4 +26,4 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        py hello.py
+        python --version
